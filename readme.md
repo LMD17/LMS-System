@@ -34,11 +34,6 @@ Follow the instructions below to set up and run the project.
      npm install
      ```
 
-3. Install additional libraries listed in `requirements.txt`:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
 ### Running the Project
 
 1. **Backend**:
