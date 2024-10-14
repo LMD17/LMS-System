@@ -1,0 +1,74 @@
+
+.layout-loginregister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80vh;
+}
+
+.layout-loginregister-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid darkorange;
+    padding: 2pc;
+    min-height: 50vh;
+    min-width: 20vw;
+}
+
+.loginregister-nav-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.loginregister-nav-link{
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid rgb(204, 112, 0);
+    font-size: 15px;
+    padding: 0.3pc;
+}
+
+.loginregister-nav-link:hover{
+    border: 1px solid white ;
+    background-color: rgba(204, 112, 0, 0.522);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-container input{
+    padding: 0.5pc;
+    border: 1px solid darkorange;
+    outline: none;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.form-container button{
+    color: white;
+    font-weight: 700;
+    background: rgb(204, 112, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 1pc;
+    cursor: pointer;
+    width: 40%;
+    padding: 0.5pc;
+}
+
+.form-errormsg{
+    color: red;
+}

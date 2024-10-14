@@ -1,0 +1,19 @@
+.form-table{
+    width: 100%;
+}
+.form-table td {
+    display: flex;
+}
+.publicationDate{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+.publicationDate label {
+    width: 25%;
+}
+.publicationDate input{
+    width: 75%;
+}

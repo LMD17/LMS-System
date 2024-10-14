@@ -1,0 +1,29 @@
+
+
+.book-item-yes-available {
+    display: grid;
+    grid-auto-flow:row;
+    padding: 5px;
+    padding-top: 10px;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.book-item-not-available {
+    display: grid;
+    grid-auto-flow:row;
+    padding: 5px;
+    padding-top: 10px;
+    gap: 5px;
+    background-color: rgba(180, 0, 0, 0.61);
+}
+
+.list-table td{
+    font-size: 14px;
+    padding: 2px;
+    text-align: left;
+    color: white;
+}
+
+input {
+    width: 100%;
+}

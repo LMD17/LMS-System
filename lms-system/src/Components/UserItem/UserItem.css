@@ -1,0 +1,39 @@
+
+
+.user-item-librarian {
+    display: grid;
+    grid-auto-flow:row;
+    padding: 5px;
+    padding-top: 10px;
+    gap: 5px;
+    background-color: rgba(255, 140, 0, 0.541);
+}
+.user-item-consumer {
+    display: grid;
+    grid-auto-flow:row;
+    padding: 5px;
+    padding-top: 10px;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.list-table td{
+    font-size: 14px;
+    padding: 2px;
+    text-align: left;
+    color: white;
+}
+
+input {
+    width: 100%;
+}
+
+.librarian-checkbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+}
+.librarian-checkbox input{
+    width: 10%;
+}

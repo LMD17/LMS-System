@@ -1,0 +1,11 @@
+.rightpanel-whole{
+    border: 1px solid darkorange !important;
+}
+
+.rightpanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}

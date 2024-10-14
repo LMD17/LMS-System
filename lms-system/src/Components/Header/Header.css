@@ -1,0 +1,106 @@
+.header{
+    display: flex;
+    align-items: center;
+    border: 1px solid darkorange;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.head-logo{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.head-logo img{
+    max-width: 150px;
+}
+
+.head-username{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:start;
+    width: 30%
+}
+.header-loginregister-buttons{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.active{
+    color: white;
+    background-color: rgb(204, 112, 0);
+    border: 1px solid rgb(204, 112, 0);
+
+}
+.active, .inactive{
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+}
+.inactive{
+    color: white;
+    border: 1px solid darkorange;
+
+}
+.inactive:hover{
+    border: 1px solid white ;
+    background-color: rgba(204, 112, 0, 0.522);
+}
+
+.head-time{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    width: 30%
+}
+
+
+
+
+/* media queries to make website responsive */
+@media only screen and (max-width:1280px){
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .head-logo img{
+        width: 100px;
+    }
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .head-logo img{
+        width: 80px;
+    }
+    
+}
+@media only screen and (max-width:800px)  {
+    .header{
+        padding: 10px 10px;
+    }
+    .head-dropdown{
+        display: block;
+        width: 30px;
+        rotate: -90deg;
+        transition: 0.5s;
+    }
+}
+@media only screen and (max-width:600px)  {
+    .header{
+        width: 8px 0px;
+        gap: 0;
+        padding: 10px 10px;
+    }
+    .head-logo img{
+        transform: scale(0.8);
+    }
+}

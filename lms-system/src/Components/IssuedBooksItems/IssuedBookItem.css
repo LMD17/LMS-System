@@ -1,0 +1,39 @@
+
+
+.issue-item-yes-returned {
+    display: grid;
+    grid-auto-flow:row;
+    padding: 5px;
+    padding-top: 10px;
+    gap: 5px;
+    background-color: rgba(73, 68, 62, 0.541);
+}
+.issue-item-not-returned {
+    display: grid;
+    grid-auto-flow:row;
+    padding: 5px;
+    padding-top: 10px;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.list-table td{
+    font-size: 14px;
+    padding: 2px;
+    text-align: left;
+    color: white;
+}
+
+input {
+    width: 100%;
+}
+
+.returned-checkbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+}
+.returned-checkbox input{
+    width: 10%;
+}

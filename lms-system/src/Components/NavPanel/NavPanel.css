@@ -1,0 +1,41 @@
+.navpanel-whole{
+    border: 1px solid darkorange;
+}
+
+.navpanel{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+}
+.navpanel li{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1pc;
+}
+.navpanel li + li {
+    margin-top: 10px;
+}
+
+.active{
+    color: white;
+    background-color: rgb(204, 112, 0);
+    border: 1px solid rgb(204, 112, 0);
+
+}
+.active, .inactive{
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.inactive{
+    color: white;
+    border: 1px solid darkorange;
+
+}
+.inactive:hover{
+    border: 1px solid white ;
+    background-color: rgba(204, 112, 0, 0.522);
+}

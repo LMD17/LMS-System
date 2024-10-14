@@ -1,0 +1,87 @@
+.loginregister-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    padding: 10px 0px;
+}
+.loginregister-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.loginregister-fields input{
+    padding: 5px;
+    border: 1px solid darkorange;
+    outline: none;
+    font-size: 18px;
+}
+.loginregister-container button{
+    color: white;
+    font-weight: 700;
+    background: rgb(204, 112, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.loginregister-login{
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginregister-login span{
+    color: darkorange;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* media queries to make website responsive */
+@media only screen and (max-width: 1280px)  {
+    .loginregister{
+        padding-top: 50px;
+    }
+    .loginregister-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginregister-container h1{
+        margin: 10px 0px;
+    }
+    .loginregister-fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .loginregister-fields input{
+        height: 65px;
+        width: 93%;
+    }
+    .loginregister-container button{
+        width: 100%;
+    }
+    .loginregister-login{
+        font-size: 16px;
+    }
+    .loginregister-agree{
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 800px)  {
+    .loginregister-container{
+        padding: 20px 30px;
+    }
+    .loginregister-container h1{
+        font-size: 25px;
+    }
+    .loginregister-fields{
+        margin-top: 20px;
+    }
+    .loginregister-fields input{
+        height: 50px;
+    }
+    .loginregister-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,32 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/book-with-confetti-vector_23-2147497490.jpg?t=st=1725694903~exp=1725698503~hmac=7298de07e3bf7904146fb439c2730fc445eccf13f786bd2360863e8434aa97ab&w=826");
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    color: rgb(255, 140, 0);
+    font-size: 3pc;
+    text-align: center;
+}
+
+h1, h3{
+    background-color: #47433fe3;
+    width: 100%;
+}
+
+@media only screen and (max-width:800px)  {
+    .home{
+        font-size: 1.5pc;
+    }
+}
+
+@media only screen and (max-width:600px)  {
+    .home{
+        font-size: 1pc;
+    }
+}

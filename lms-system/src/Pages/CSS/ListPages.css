@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.user-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: solid 1px darkorange;
+}
+
+.search-form{
+    padding: 10px;
+}
+.search-form input{
+    padding: 5px;
+}
+
+.fineRate{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.fineRate input{
+    max-width: 50px;
+}
+
+.fineRate div{
+    text-align: left;
+    font-size: 11px;
+}
+
+.link{
+    border: 1px solid darkorange;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+.link:hover{
+    border: 1px solid white ;
+    background-color: rgba(204, 112, 0, 0.522);
+}
+
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid darkorange;
+}
+
+
+.item-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="item-column-"] {
+    float: left;
+    padding: 5px;
+}
+
+/* mobile phones */
+[class*="item-column-"] {
+    width: 100%;
+}
+
+
+/* tablets */
+@media only screen and (min-width: 650px) {
+    .item-item-column-s-1 {width: 8.33%;}
+    .item-column-s-2 {width: 16.66%;}
+    .item-column-s-3 {width: 25%;}
+    .item-column-s-4 {width: 33.33%;}
+    .item-column-s-5 {width: 41.66%;}
+    .item-column-s-6 {width: 50%;}
+    .item-column-s-7 {width: 58.33%;}
+    .item-column-s-8 {width: 66.66%;}
+    .item-column-s-9 {width: 75%;}
+    .item-column-s-10 {width: 83.33%;}
+    .item-column-s-11 {width: 91.66%;}
+    .item-column-s-12 {width: 100%;}
+  }
+
+
+/* desktop */
+@media only screen and (min-width: 900px) {
+    /* For desktop: */
+    .item-column-1 {width: 8.33%;}
+    .item-column-2 {width: 16.66%;}
+    .item-column-3 {width: 25%;}
+    .item-column-4 {width: 33.33%;}
+    .item-column-5 {width: 41.66%;}
+    .item-column-6 {width: 50%;}
+    .item-column-7 {width: 58.33%;}
+    .item-column-8 {width: 66.66%;}
+    .item-column-9 {width: 75%;}
+    .item-column-10 {width: 83.33%;}
+    .item-column-11 {width: 91.66%;}
+    .item-column-12 {width: 100%;}
+  }
+
+

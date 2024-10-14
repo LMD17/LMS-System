@@ -1,0 +1,37 @@
+
+
+
+/* media queries to make website responsive */
+@media only screen and (max-width: 1280px)  {
+    .register-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .register-fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .register-fields input{
+        height: 65px;
+        width: 93%;
+    }
+    .register-container button{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px)  {
+    .register-container{
+        padding: 20px 30px;
+    }
+    .register-fields{
+        margin-top: 20px;
+    }
+    .register-fields input{
+        height: 50px;
+    }
+    .register-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+}
