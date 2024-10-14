@@ -201,7 +201,7 @@ export const IssueProvider = ({ children }) => {
     }, [])  // run once
 
     return (
-        <IssueContext.Provider value={{ issues, singleIssue, userIssues, fineCharge, getSingleIssue, getUserIssues, setFineCharge, addIssue, updateIssue, deleteIssue, calculateFine, calculateFines, toggleReturned }}>
+        <IssueContext.Provider value={{ issues, singleIssue, userIssues, fineCharge, getSingleIssue, getUserIssues, setFineCharge, addIssue, updateIssue, deleteIssue, calculateFines, toggleReturned }}>
             {children}
         </IssueContext.Provider>
     )
