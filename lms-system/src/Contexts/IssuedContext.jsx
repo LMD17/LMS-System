@@ -114,41 +114,6 @@ export const IssueProvider = ({ children }) => {
     }
 
     // Calculate fine amount
-    const calculateFine = (id) => {
-        console.log("Calculated fine")
-        setIssues((prev) =>
-            prev.map((prevIssue) =>
-                prevIssue.id === id
-                    ? {
-                        ...prevIssue,
-                        fine_amount:
-                            // Calculate how many days overdue
-                            Math.floor(
-                                (new Date().getTime() -
-                                    new Date(prevIssue.due_date).getTime()) /
-                                (1000 * 60 * 60 * 24) // divide by a day
-                            ) > 0
-                                ? // If overdue, calculate the new fine and format to 2 decimal places
-                                parseFloat(
-                                    (
-                                        prevIssue.fine_amount +
-                                        Math.floor(
-                                            (new Date().getTime() -
-                                                new Date(prevIssue.due_date).getTime()) /
-                                            (1000 * 60 * 60 * 24)
-                                        ) *
-                                        fineCharge  // fineCharge is the amount per day the fine will cost
-                                    ).toFixed(2)    // format to 
-                        // !!!! UPDATE FINE FOR SPECIFIC ISSUED B decimal placesOOK (I think on this line)
-                                )
-                                : prevIssue.fine_amount, // If not overdue, leave fine unchanged
-                    }
-                    : prevIssue // Return issue unchanged if it's not the one we're calculating for
-            )
-        )
-    }
-
-    // Calculate fine amount
     const calculateFines = () => {
         // loop through each issue
         issues.forEach(issue => {
