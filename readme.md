@@ -48,6 +48,6 @@ Follow the instructions below to set up and run the project.
    npm run dev
    ```
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
