@@ -16,7 +16,7 @@ Follow the instructions below to set up and run the project.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/LMS-System.git
+   git clone https://github.com/LMD17/LMS-System.git
    cd LMS-System
    ```
 
